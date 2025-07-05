@@ -22,3 +22,11 @@ API as Code is a concept, using which you can automate any provider like AWS, GD
 3. terraform apply
 4. terraform destroy
 
+### Terraform State files
+
+Terraform state files are crucial for Terraform's operation, acting as a record of the infrastructure it manages. 
+
+They map the resources defined in your Terraform configuration to their real-world counterparts, enabling Terraform to track changes, plan updates, and avoid unnecessary recreation of resources.
+
+
+
