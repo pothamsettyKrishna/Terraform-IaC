@@ -29,4 +29,12 @@ Terraform state files are crucial for Terraform's operation, acting as a record 
 They map the resources defined in your Terraform configuration to their real-world counterparts, enabling Terraform to track changes, plan updates, and avoid unnecessary recreation of resources.
 
 
+### Problems with terraform
+
+1. State file is single source of truth.
+2. Manual changes to the cloud provider cannot be identified and auto-corrected.
+3. Not a GitOps friendly tool.
+4. Can be very complex and difficult to manage.
+5. Trying to postion as a configuration management tool as well.
+
 
